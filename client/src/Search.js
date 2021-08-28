@@ -14,23 +14,6 @@ function Search() {
   };
   const searchByName = async () => {
       console.log("inside search func");
-      // await fetch(`/search/${name}`, {
-      //   headers: {
-      //     "Content-Type": "application/json",
-      //     Accept: "application/json",
-      //   },
-      // })
-      //   .then((res) => {res.json();
-      //                   if(!res.ok)
-      //                     console.log("not okay");})
-      //   .then((data) => {
-      //     let { results } = data;
-      //     console.log("data", results);
-      //     setResult(results);
-      //     setLoading(false);
-      //   });
-      // const url=url+`/search/${name}`;
-      // console.log()
       const res = await fetch(
         `https://superhero-wikipedia.herokuapp.com/search/${name}`
       );

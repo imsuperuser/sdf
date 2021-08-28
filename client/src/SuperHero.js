@@ -46,6 +46,9 @@ function SuperHero({
   return (
     <div className="biodata">
       <div className="view">
+        <div className="top-btn back-btn">
+          <Link to="/">Back</Link>
+        </div>
         <img className="big-img" src={url} alt="image" />
         <h1 className="title">{name}</h1>
         <hr width="80%" color="white" />
@@ -273,10 +276,6 @@ function SuperHero({
         ) : (
           <></>
         )}
-      </div>
-
-      <div className="back-btn">
-        <Link to="/">Back</Link>
       </div>
     </div>
   );

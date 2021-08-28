@@ -74,6 +74,14 @@ h1 {
 .loading {
   width: 100px;
 }
+.biodata{
+  background-color: rgba(0, 0, 0, 0.521);
+}
+.top-btn{
+  position: absolute;
+  top: 0px;
+  right: 150px;
+}
 .view {
   background-color: rgba(0, 0, 0, 0.521);
   display: flex;
